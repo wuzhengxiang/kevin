@@ -1,0 +1,6 @@
+framework module Pods_CWuProject_CWuProjectUITests {
+  umbrella header "Pods-CWuProject-CWuProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CWuProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Masonry'
+  pod 'AFNetworking'
+  pod 'MJExtension'
+  pod 'MBProgressHUD'
+  pod 'SDWebImage', '~>3.7'
+  pod 'FMDB'
+  pod 'MJRefresh'
+  pod 'IQKeyboardManager'
+  pod 'SDCycleScrollView'
+  # Pods for CWuProject
+
+  target 'CWuProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CWuProjectUITests' do
+    # Pods for testing
+  end
+
+end
